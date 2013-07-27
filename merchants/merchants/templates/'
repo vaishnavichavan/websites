@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Merchants Facade</title>
+  </head>
+
+  <body>
+    <div style="width: 500px; margin: 500px auto 0 auto;">
+    <form action ="/processClick/" method="post">
+      <table>
+        <tr> <td align="center" colspan="2">Choose one Operation</td> </tr>
+        <tr> 
+            <td><input type="SUBMIT" value = "Add Merchant" name = "button"></td>
+             <td><input type="SUBMIT", value="View Merchants" name = "button"></td>
+        </tr>
+      </table>
+    </form>
+    </div>
+  </body>
+</html>
+

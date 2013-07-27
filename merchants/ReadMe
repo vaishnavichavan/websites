@@ -1,0 +1,20 @@
+Question:
+
+Write a django app to store merchant’s details in database. Use sqlite3 as the database.
+
+Merchant’s db schema:
+
+name
+description
+logo_url
+tagline
+twitter_handle
+phone
+email
+geo_location
+address
+
+Please put proper form validation as required. We need a working one page form which can take these 
+values as input and store it in database. Another page is required to just list down all the 
+merchants. Use appropriate data types for each field.
+

@@ -1,0 +1,14 @@
+<html>
+  <head> 
+    <title> Merchants Info </title>
+  </head>
+  <body>
+    <table border="1">
+      <tr><th>Name</th><th>Description</th><th>LogoUrl</th><th>TagLine</th><th>Twitter Handle</th><th>Phone Number</th><th>Email Id</th><th>Geo Location</th><th>Address</th></tr>
+      {% for m in merchantsList %}
+        <tr><td>{{m.name}}</td><td>{{m.description}}</td><td>{{m.logoUrl}}</td><td>{{m.tagLine}}</td><td>{{m.twitterHandle}}</td><td>{{m.phone}}</td><td>{{m.email}}</td><td>{{m.geoLocation}}</td><td>{{m.address}}</td></tr>
+      {% endfor %}
+    </table>
+  </body>
+<html>
+

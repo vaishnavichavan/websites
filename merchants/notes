@@ -1,0 +1,6 @@
+from merchants.models import Merchants
+
+m = Merchants(name="Merchant1", description="Description1", logoUrl="logoUrl1", tagLine="tagLine1", twitterHandle="twitterHandle1", phone="9870729317", email="email1@emailProvider.com", geoLocation="GeoLocationInfo", address="address1")
+
+m = Merchants(name="Merchant2", description="Description2", logoUrl="logoUrl2", tagLine="tagLine2", twitterHandle="twitterHandle2", phone="1280794726", email="email2@emailProvider.com", geoLocation="GeoLocationInfo", address="address2")
+
