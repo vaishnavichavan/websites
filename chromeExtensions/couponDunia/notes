@@ -1,0 +1,10 @@
+
+To get the coupon code text
+$(".coupon_code_text", req.responseText);
+
+affiliate link ; "http://www.coupondunia.in/load/"+coupon_id+"/"
+
+for coupon 52870
+    http://www.jabong.com/all-products/?promotion=additional-30&cmpgp=add-25&aff=in.affiliate.cps_tyroo.CD15410.sept_category.aff&utm_source=cps_tyroo&utm_medium=dc-clicktracker&utm_campaign=CD15410&utm_content=sept_category
+
+
